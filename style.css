@@ -28,8 +28,16 @@
     position: fixed;
     width: 100%;
 }
-#navbar h1, #navbar h5{
+#navbar h1{
     margin-left: 11%;
+}
+#navbar h5{
+    margin-left: 11%;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+#navbar h5 i{
+    font-size: 9px;
 }
 #footer{
     width: 100%;
@@ -67,7 +75,7 @@
 .colored{
     font-size: 15px;
     color: rgb(255, 145, 0);
-}
+}   
 #logo{
     width: 10%;
     float: left;
@@ -82,13 +90,55 @@
 }
 .navbuttons{
     float: right;
-    margin-right: 20px;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-left: 11%;
 }
 .navbuttons b, .navbuttons a{
     margin-left: 15px;
     text-decoration: none;
+    color: white;
 }
 .sidebar hr{
     width: 100%;
     margin-left: -15px;
+}
+.short{
+    width: 100%;
+}
+.short img{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+#totop{
+    background-color: rgb(71, 71, 71);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+}
+#totop a{
+    color: white;
+    text-decoration: none;
+}
+#form input, #text, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#text{
+    display: block;
+    width: inherit;
+    height: 200px;
+    border: 0.1px solid rgb(78, 78, 78);
+    resize: vertical;
+}
+#fields{
+    min-width: 500px;
+    width: 60%;
+    max-width: 1000px;
+    height: auto;
 }
