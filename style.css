@@ -45,7 +45,6 @@
     background-color: black;
     color: white;
     z-index: 1;
-    padding-left: 11%;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +61,7 @@
     height: 50px;
 }
 #footer .words{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 #footer span p{
     font-size: 15px;
@@ -85,7 +84,7 @@
     top: 0;
 }
 .main{
-    margin-left: 11%;
+    margin-left: 10.5%;
     margin-top: 80px;
 }
 .navbuttons{
@@ -124,14 +123,14 @@
     color: white;
     text-decoration: none;
 }
-#form input, #text, button{
+#form input, #text{
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 #text{
     display: block;
-    width: inherit;
+    width: 101%;
     height: 200px;
     border: 0.1px solid rgb(78, 78, 78);
     resize: vertical;
@@ -141,4 +140,10 @@
     width: 60%;
     max-width: 1000px;
     height: auto;
+}
+#fields h1{
+    font-size: 40px;
+}
+#form{
+    margin-bottom: 30px;
 }
